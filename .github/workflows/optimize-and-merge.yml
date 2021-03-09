@@ -1,0 +1,28 @@
+name: Optimize and merge
+
+on: pull_request
+
+jobs:
+  compress-images:
+    name: Optimize repository images
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: Optimize with Calibre's image actions
+        uses: docker://calibreapp/github-image-actions
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  auto-approve:
+    name: Auto approve dependencies PRs
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Approve Dependabot PRs
+        uses: hmarr/auto-approve-action@v2.0.0
+        if: github.actor == 'dependabot[bot]' || github.actor == 'dependabot-preview[bot]'
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
