@@ -16,8 +16,8 @@
   "favicon": "/img/uploads/favicon.png",
   "country_code": "BR",
   "secondary_color": "#584b56",
-  "icon": "/img/icon.png",
+  "icon": "/img/uploads/favicon.png",
   "store_id": 1232,
   "description": "catclub",
-  "large_icon": "/img/large-icon.png"
+  "large_icon": "/img/uploads/favicon.png"
 }
