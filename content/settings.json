@@ -8,8 +8,8 @@
   },
   "bg_color": "#ffffff",
   "logo": "/img/uploads/logohorizontal2.png",
-  "name": "catclub",
-  "short_name": "catclub",
+  "name": "Cat Club",
+  "short_name": "Cat Club",
   "lang": "pt_br",
   "currency": "BRL",
   "mini_logo": "",
@@ -18,6 +18,6 @@
   "secondary_color": "#584b56",
   "icon": "/img/uploads/favicon.png",
   "store_id": 1232,
-  "description": "catclub",
+  "description": "A loja do gatinho e da gateira!",
   "large_icon": "/img/uploads/favicon.png"
 }
