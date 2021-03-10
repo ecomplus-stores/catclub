@@ -1,7 +1,7 @@
 {
   "domain": "catclub.netlify.app",
   "currency_symbol": "R$",
-  "primary_color": "#ff42a7",
+  "primary_color": "#f5908b",
   "theme": {
     "bootswatch": "minty",
     "custom": "_"
