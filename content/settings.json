@@ -3,11 +3,11 @@
   "currency_symbol": "R$",
   "primary_color": "#222831",
   "theme": {
-    "bootswatch": "cosmo",
+    "bootswatch": "_",
     "custom": "_"
   },
   "bg_color": "#ffffff",
-  "logo": "/img/uploads/logo.png",
+  "logo": "/img/uploads/logonormal2.png",
   "name": "catclub",
   "short_name": "catclub",
   "lang": "pt_br",
