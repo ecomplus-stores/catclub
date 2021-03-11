@@ -39,6 +39,22 @@
       ]
     },
     {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "slides": [
+        {
+          "start": "2021-03-11T00:43:41.775Z",
+          "end": "2021-03-11T00:43:41.810Z",
+          "img": "/img/uploads/og-image.png"
+        },
+        {
+          "img": "/img/uploads/og-image.png",
+          "start": "2021-03-11T00:45:15.952Z",
+          "end": "2021-03-11T00:45:15.994Z"
+        }
+      ]
+    },
+    {
       "type": "collection-shelf",
       "shuffle": true,
       "collection_id": "604819616d50911b605a5784:categories:Pros Humanos:/pros-humanos",
@@ -54,22 +70,6 @@
       "type": "page-title",
       "title": "",
       "description": ""
-    },
-    {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "slides": [
-        {
-          "start": "2021-03-11T00:43:41.775Z",
-          "end": "2021-03-11T00:43:41.810Z",
-          "img": "/img/uploads/og-image.png"
-        },
-        {
-          "img": "/img/uploads/og-image.png",
-          "start": "2021-03-11T00:45:15.952Z",
-          "end": "2021-03-11T00:45:15.994Z"
-        }
-      ]
     }
   ]
 }
