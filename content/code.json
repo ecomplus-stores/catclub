@@ -1,5 +1,5 @@
 {
-  "css": ".product__short-stock {\ndisplay: none !important;\n}\n#product-actions button.share, .product__payment.card.mb-3 {\n  display: none;\n}",
+  "css": ".product__short-stock {\ndisplay: none !important;\n}\n#product-actions button.share, .product__payment.card.mb-3 {\n  display: none;\n}\n.variations__value--empty {\n    display: none !important;\n}",
   "html_head": "",
   "html_body": "<a href=\"https://wa.me/5521966605639?text=Seja%20bem%20vindo%20ao%20Cat%20Club!%20Deixe%20seu%20recado%20que%20em%20breve%20iremos%20lhe%20atender.%20\" style=\"position:fixed;width:60px;height:60px;bottom:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;z-index:1000;right:40px;\" target=\"_blank\">\n<i style=\"margin-top:16px\" class=\"fab fa-whatsapp\"></i>\n</a>\n"
 }
