@@ -22,8 +22,15 @@
       ]
     },
     {
-      "type": "info-bar",
-      "enabled": false
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/og-image.png"
+        },
+        {
+          "img": "/img/uploads/og-image.png"
+        }
+      ]
     },
     {
       "type": "collection-shelf",
@@ -34,20 +41,13 @@
       "sort": "news"
     },
     {
+      "type": "info-bar",
+      "enabled": false
+    },
+    {
       "type": "page-title",
       "title": "",
       "description": ""
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/og-image.png"
-        },
-        {
-          "img": "/img/uploads/og-image.png"
-        }
-      ]
     }
   ]
 }
