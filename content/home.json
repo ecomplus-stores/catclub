@@ -43,14 +43,14 @@
       "autoplay": 9000,
       "slides": [
         {
-          "start": "2021-03-11T00:43:41.775Z",
-          "end": "2021-03-11T00:43:41.810Z",
+          "start": "",
+          "end": "",
           "img": "/img/uploads/og-image.png"
         },
         {
           "img": "/img/uploads/og-image.png",
-          "start": "2021-03-11T00:45:15.952Z",
-          "end": "2021-03-11T00:45:15.994Z"
+          "start": "",
+          "end": ""
         }
       ]
     },
