@@ -11,7 +11,8 @@
           "link": "/headset",
           "alt": "Headset banner",
           "start": "",
-          "end": ""
+          "end": "",
+          "mobile_img": "/img/uploads/bannerhome-mobile.png"
         }
       ]
     },
