@@ -7,12 +7,12 @@
       "autoplay": 9000,
       "slides": [
         {
-          "img": "/img/uploads/bannerhome-v2.png",
+          "img": "/img/uploads/bannerhome.jpg",
           "link": "/headset",
           "alt": "Headset banner",
           "start": "",
           "end": "",
-          "mobile_img": "/img/uploads/bannerhome-mobile.png"
+          "mobile_img": "/img/uploads/bannerhome-mobile.jpg"
         }
       ]
     },
