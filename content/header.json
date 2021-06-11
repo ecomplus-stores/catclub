@@ -18,9 +18,15 @@
     "socials": true
   },
   "categories_list": {
-    "featured": [],
-    "random": 6,
-    "full_width": true
+    "featured": [
+      "/bolsas?Bolsas",
+      "/moda?Moda",
+      "/acessorios?Acessórios",
+      "/produtos-para-gatos?Pros Gatos",
+      "/decoracao?Decoração"
+    ],
+    "random": 0,
+    "full_width": false
   },
   "search_input": true
 }
