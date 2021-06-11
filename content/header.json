@@ -19,11 +19,11 @@
   },
   "categories_list": {
     "featured": [
+      "/acessorios?Acessórios",
       "/bolsas?Bolsas",
       "/moda?Moda",
-      "/acessorios?Acessórios",
-      "/produtos-para-gatos?Pros Gatos",
-      "/decoracao?Decoração"
+      "/decoracao?Decoração",
+      "/produtos-para-gatos?Pros Gatos"
     ],
     "random": 0,
     "full_width": false
