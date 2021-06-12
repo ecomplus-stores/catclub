@@ -4,25 +4,42 @@ on: pull_request
 
 jobs:
   compress-images:
-    name: Optimize repository images
+    name: Compress repository images
     runs-on: ubuntu-latest
+    if: |
+      !contains(github.event.pull_request.title, '[skip ci]') &&
+      !startsWith(github.head_ref, 'chore')
 
     steps:
       - name: Checkout
-        uses: actions/checkout@master
+        uses: actions/checkout@v2
 
       - name: Optimize with Calibre's image actions
-        uses: docker://calibreapp/github-image-actions
+        uses: calibreapp/image-actions@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  auto-approve:
-    name: Auto approve dependencies PRs
+      - name: Wait images optimization
+        run: sleep 120
+
+  auto-merge:
+    name: Auto merge dependencies PRs
     runs-on: ubuntu-latest
+    if: |
+      github.actor == 'renovate[bot]' ||
+      github.actor == 'renovate-preview[bot]'
 
     steps:
-      - name: Approve Dependabot PRs
-        uses: hmarr/auto-approve-action@v2.0.0
-        if: github.actor == 'dependabot[bot]' || github.actor == 'dependabot-preview[bot]'
+      - name: Squash and merge
+        if: |
+          contains(github.event.pull_request.body, 'Automerge**: Enabled')
+        uses: actions/github-script@v4
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            await github.pulls.merge({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.payload.pull_request.number,
+              merge_method: 'squash'
+            })
