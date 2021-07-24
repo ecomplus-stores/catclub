@@ -1,4 +1,5 @@
 {
+  "repository": "ecomplus-stores/catclub",
   "domain": "catclub.netlify.app",
   "currency_symbol": "R$",
   "primary_color": "#f5908b",
