@@ -242,25 +242,13 @@
     </url>
   
     <url>
-      <loc>https://catclub.netlify.app/pedras-misticas</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://catclub.netlify.app/truqys-pet</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://catclub.netlify.app/petlon</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
       <loc>https://catclub.netlify.app/acessorios</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://catclub.netlify.app/pedras-misticas</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
@@ -375,6 +363,18 @@
   
     <url>
       <loc>https://catclub.netlify.app/mochilas</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://catclub.netlify.app/truqys-pet</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://catclub.netlify.app/petlon</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
