@@ -1,1 +1,6 @@
 // Add your custom CSS here.
+.variations__option:disabled {
+    color: #888;
+    background-color: #f8f9fa;
+    border-color: var(--border-color);
+}
