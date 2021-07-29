@@ -1,4 +1,4 @@
-// storefront.webpack.js
+//storefront.webpack.js
 
 const path = require('path')
 
