@@ -4,3 +4,6 @@
     background-color: #f8f9fa;
     border-color: var(--border-color);
 }
+option:disabled {
+    color: red
+}
