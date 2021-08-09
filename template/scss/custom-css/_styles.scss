@@ -1,4 +1,5 @@
 // Add your custom CSS here.
+// mark disabled variations
 .variations__option:disabled {
     color: #888;
     background-color: #f8f9fa;
@@ -7,7 +8,11 @@
 option:disabled {
     color: red
 }
+// active shipping
 .shipping-calculator__services .list-group-item-action.active {
     border: 1px solid #F5918C
 }
-
+//breadcrumb color
+.breadcrumb a,.breadcrumb a:hover  {
+  color: #f5908b
+}
