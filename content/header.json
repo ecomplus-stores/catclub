@@ -1,7 +1,7 @@
 {
   "marketing_stripe": {
     "text": "Estamos de loja nova!",
-    "link": "/novidades",
+    "link": "/pages/novidades",
     "background": "#ff908b",
     "color": "#ffffff"
   },
