@@ -26,26 +26,35 @@
     },
     {
       "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/chinelo.jpg"
-        },
-        {
-          "img": "/img/uploads/mochila.jpg"
-        },
-        {
-          "img": "/img/uploads/camisetas.jpg"
-        },
-        {
-          "img": "/img/uploads/colar.jpg"
-        },
-        {
-          "img": "/img/uploads/flamulas.jpg"
-        },
-        {
-          "img": "/img/uploads/cama-de-gato.jpg"
-        }
-      ]
+      "banners": []
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "60c37779641ad82fcc261739:categories:Bolsa maternidade:/bolsa-maternidade"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "60d4a3d2d24de4526facb7c6:categories:Mochilas:/mochilas"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "60c37938641ad82fcc261c5a:categories:Shoulder Bag:/shoulder-bag"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "610599dc33f3ce442f7fb76a:categories:Bolsa Térmica:/bolsa-termica"
     },
     {
       "type": "collection-shelf",
