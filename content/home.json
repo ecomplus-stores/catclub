@@ -67,11 +67,6 @@
     {
       "type": "info-bar",
       "enabled": false
-    },
-    {
-      "type": "page-title",
-      "title": "",
-      "description": ""
     }
   ]
 }
