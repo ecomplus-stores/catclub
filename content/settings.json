@@ -1,5 +1,4 @@
 {
-  "repository": "ecomplus-stores/catclub",
   "domain": "www.catclub.com.br",
   "currency_symbol": "R$",
   "primary_color": "#f5908b",
@@ -8,6 +7,7 @@
     "custom": "_"
   },
   "bg_color": "#e3e5e6",
+  "repository": "ecomplus-stores/catclub",
   "logo": "/img/uploads/logohorizontal2.png",
   "name": "Cat Club",
   "short_name": "Cat Club",
@@ -19,6 +19,6 @@
   "secondary_color": "#584b56",
   "icon": "/img/uploads/favicon.png",
   "store_id": 1232,
-  "description": "A loja do gatinho e da gateira!",
+  "description": "Loja de produtos para gatos e gateiras. Temos brinquedos, fontes de água, bolsas, acessórios e muito mais. ",
   "large_icon": "/img/uploads/favicon.png"
 }
