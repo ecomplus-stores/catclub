@@ -16,3 +16,14 @@ option:disabled {
 .breadcrumb a,.breadcrumb a:hover  {
   color: #f5908b
 }
+
+.shipping-line[data-service-code=PICKUP] strong {
+    display: none !important;
+  }
+  .shipping-line[data-service-code=PICKUP] span {
+    color: transparent !important;
+  }
+  .shipping-line > small {
+    -webkit-line-clamp: 5 !important;
+    font-weight: bold
+  }
