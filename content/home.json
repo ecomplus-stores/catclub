@@ -7,19 +7,19 @@
       "autoplay": 9000,
       "slides": [
         {
+          "start": "",
+          "end": "",
+          "mobile_img": "",
+          "link": "https://www.catclub.com.br/caneca-de-ceramica-personalizada",
+          "img": "/img/uploads/banner-caneca-personalizada-cat-club-home.jpg"
+        },
+        {
           "img": "/img/uploads/bannerhome.jpg",
           "link": "/headset",
           "alt": "Headset banner",
           "start": "",
           "end": "",
           "mobile_img": "/img/uploads/bannerhome-mobile.jpg"
-        },
-        {
-          "start": "",
-          "end": "",
-          "mobile_img": "",
-          "link": "https://www.catclub.com.br/caneca-de-ceramica-personalizada",
-          "img": "/img/uploads/banner-caneca-personalizada-cat-club-home.jpg"
         }
       ],
       "full_width": true
